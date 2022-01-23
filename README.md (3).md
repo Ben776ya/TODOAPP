@@ -90,7 +90,7 @@ In standard views, a  _delegate_  renders the items of data. When an item is edi
   - Save :
    ```cpp
    void ToDoApp::closeEvent(QCloseEvent* e){
-    QFile file("C:/Users/zakariae zaoui/Desktop/alo.txt");
+    QFile file("C:/Users/Hamza ess/Desktop/ez.txt");
     if(file.open(QIODevice::ReadWrite | QIODevice::Text)){
         QTextStream out(&file);
         for(int i=0;i<Todaytasks.size();i++)
