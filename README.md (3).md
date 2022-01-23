@@ -113,7 +113,7 @@ In standard views, a  _delegate_  renders the items of data. When an item is edi
      - Implementing the code to the constructor
    
    ```cpp
-      QFile file("C:/Users/zakariae zaoui/Desktop/alo.txt");
+      QFile file("C:/Users/Hamza ess/Desktop/ez.txt");
 
       if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
             return;
@@ -498,7 +498,7 @@ we are going to save the tasks on a .txt file
 ```cpp
 void ToDoApp::closeEvent(QCloseEvent* e){
     
-    QFile file("C:/Users/zakariae zaoui/Desktop/alo.txt");
+    QFile file("C:/Users/Hamza ess/Desktop/ez.txt");
     if(file.open(QIODevice::ReadWrite | QIODevice::Text)){
         QTextStream out(&file);
         
@@ -522,7 +522,7 @@ void ToDoApp::closeEvent(QCloseEvent* e){
 the tasks entered to our application must remains in the app in future use
 to do this we need to add this code to the constructor 
 ```cpp
-      QFile file("C:/Users/zakariae zaoui/Desktop/alo.txt");
+      QFile file("C:/Users/Hamza ess/Desktop/ez.txt");
 
       if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
             return;
